@@ -1,3 +1,4 @@
+const path = require('path')
 const config = {
   projectName: 'testTaro',
   date: '2021-10-12',
@@ -58,7 +59,11 @@ const config = {
           generateScopedName: '[name]__[local]___[hash:base64:5]'
         }
       }
-    }
+    },
+    esnextModules: ['taro-ui']
+  },
+  alias: {
+    '@/components': path.resolve(__dirname, '..', 'src/components'),
   }
 }
 

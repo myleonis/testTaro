@@ -2,5 +2,5 @@
  * @description: 
  */
 export default {
-  navigationBarTitleText: '首页'
+  navigationBarTitleText: '测试'
 }
